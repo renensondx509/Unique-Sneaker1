@@ -1,0 +1,10 @@
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; padding:0; color:#111 }
+header { background:#000; color:#fff; padding:24px; text-align:center}
+.slogan { font-style:italic; opacity:0.9 }
+main { padding:20px; max-width:1000px; margin:0 auto }
+#product-area { border:1px solid #eee; padding:16px; margin-bottom:16px; border-radius:8px }
+#buy-form input { padding:8px; margin:6px 6px 6px 0; }
+#buy-btn { padding:8px 12px; cursor:pointer; background:#111; color:#fff; border:none; border-radius:4px }
+#owners-list { list-style:none; padding:0 }
+#owners-list li { padding:6px 0; border-bottom:1px dashed #eee }
+#map { border:1px solid #ddd; border-radius:8px; }

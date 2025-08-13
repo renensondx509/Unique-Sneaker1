@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Unique — Be you. Be different. Be unique.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Unique</h1>
+    <p class="slogan">Be you. Be different. Be unique.</p>
+  </header>
+
+  <main>
+    <section id="product-area">
+      <h2 id="product-name">Unique - Limited Edition</h2>
+      <p id="product-desc">Only 7 pairs ever. Own yours.</p>
+      <p>Price: <strong id="price">$1000.00</strong></p>
+      <p>Available: <strong id="available">—</strong></p>
+
+      <div id="buy-form">
+        <input id="buyer-name" placeholder="Your full name" />
+        <input id="buyer-city" placeholder="Your city (e.g., Miami, FL)" />
+        <button id="buy-btn">Buy Now</button>
+        <p id="buy-msg"></p>
+      </div>
+    </section>
+
+    <section id="owners-area">
+      <h3>Owners (List)</h3>
+      <ul id="owners-list"></ul>
+    </section>
+
+    <section id="map-area">
+      <h3>Owners Map</h3>
+      <div id="map" style="height: 400px;"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
