@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: unique-sneaker
+    env: node
+    plan: free
+    buildCommand: cd server && npm install && cd ../public && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: USER_AGENT
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
